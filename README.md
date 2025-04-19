@@ -18,7 +18,7 @@ Feeding each binary manually into `SearchSploit` and cross‑checking `GTFOBins`
 1. Finds exploits matching the  kernel string
 2. Loops through fed SUID binaries & gathers PoCs
 3. Adds GTFOBin links when a binary maybe subject
-4. (Opt.) Copies PoCs to `./exploit‑db/` for offline use
+4. (Opt.) Copies PoCs to `./exploit‑db/` for offline use using `-m`
 5. Produces a Markdown report you can paste straight into notes
 
 ## Usage:
